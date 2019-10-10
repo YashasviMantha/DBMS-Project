@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='loginStyle.css') }}">
+
+<form action="{{ url_for('hyd') }}" method="POST" id="form1">
+<h1 style="font-size:6vw" align="center">Smart City Management</h1>
+<br>
+<label>Username:</label> <input align='center' type="text" name="user"><br>
+<br>
+<br>
+<label>Password:</label> <input align='center'type="password" name="passw"><br>
+<br>
+<br>
+</form>
+<div class="wrapper">
+<button type="submit" form="form1" value="Submit">Submit</button>
+</div>
+
+</head>
+</body>
+</html>

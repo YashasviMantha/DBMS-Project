@@ -1,0 +1,19 @@
+<html>
+<head>
+<body>
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='hyd_data.css') }}"/>
+
+<h1 style="font-size:7vw" align="center">Hyderabad Data</h1>
+
+<table>
+{% for item in data %}
+<tr style="color:#ADEFD1FF; font-family: 'Courier New'">
+    <td>{{item}}</td>
+</tr>
+{% endfor %}
+</table>
+
+</head>
+</body>
+</html>

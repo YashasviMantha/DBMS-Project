@@ -1,0 +1,40 @@
+<html>
+<head>
+<body>
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='hyd.css') }}"/>
+
+<h1 style="font-size:7vw" align="center">Hyderabad</h1>
+
+<form action="http://127.0.0.1:5000/hyd_data" method="POST" id="form2">
+<div class="select_a">
+<select name="table">
+  <option value="POLICE_STATIONS">POLICE STATIONS</option>
+  <option value="HOSPITALS">HOSPITALS</option>
+  <option value="SCHOOLS">SCHOOLS</option>
+  <option value="COLLAGES_OR_UNIVERSITIES">COLLAGES_OR_UNIVERSITIES</option>
+  <option value="METRO_STATIONS">METRO STATIONS</option>
+  <option value="FAMOUS_PLACES">FAMOUS PLACES</option>
+  <option value="SOFTWARE_COMPANIES">SOFTWARE COMPANIES</option>
+</select>
+
+<select name="rows">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+</select>
+</form>
+<button type="Submit" form="form2" value="Submit">Submit</button>
+</div>
+
+
+</head>
+</body>
+</html>

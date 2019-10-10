@@ -1,0 +1,122 @@
+CREATE TABLE POLICE_STATIONS(STATION_ID NUMBER PRIMARY KEY,STATION_NAME VARCHAR(50),location varchar(100),HELPLINE_NO NUMBER(15));
+insert into police_stations values(101,'BAND NAKA POLICE STATION','https://maps.app.goo.gl/CSVRXTug6J8ethEF6',100);
+insert into police_stations values(102,'KAMATIPURA POLICE STATION','https://maps.app.goo.gl/zutrYFUwKNoY54j67',04027854789);
+insert into police_stations values(103,'BEGUMPET POLICE STATION','https://maps.google.com/?cid=17599328410052146966',04027853589);
+insert into police_stations values(104,'CHARMINAR POLICE STATION','https://maps.app.goo.gl/W3TZPqhactuqK31E6',04027854787);
+insert into police_stations values(105,'bahadurpura police station','https://maps.google.com/?cid=17531523317782936438',04027854794);
+insert into police_stations values(106,'mir chowk police station','https://maps.google.com/?cid=617996477239597075',04027854797);
+insert into police_stations values(107,'traffic police station panjagutta','https://maps.app.goo.gl/hYrvRuAyPbLYXyWt8',04027852494);
+insert into police_stations values(108,'sr nagar police station','https://maps.google.com/?cid=13163079538109516593',04027852386);
+insert into police_stations values(109,'jubilee hills police station','https://maps.app.goo.gl/DR2kzP5jCM1URFSr9',04027852447);
+insert into police_stations values(110,'dabeerpura police station','https://maps.google.com/?cid=9770643046133625999',04027854791);
+
+CREATE TABLE HOSPITALS(HOS_ID NUMBER PRIMARY KEY,HOS_NAME VARCHAR(100),LOCATION VARCHAR(100),HELPLINE_NO NUMBER(15));
+insert into hospitals values(201,'APOLLO HOSPITALS','https://maps.app.goo.gl/tAd1eVp1FyQeb2387',18605001066);
+insert into hospitals values(202,'YASHODA HOSPITALS','https://maps.app.goo.gl/fg29bWxcrUbdNuJH9',04045674567);
+insert into hospitals values(203,'CARE HOSPITALS','https://maps.google.com/?cid=16566898567598116385',04030417777);
+insert into hospitals values(204,'AWARE GLENEAGLES GLOBAL HOSPITAL','https://maps.app.goo.gl/NQW47fzU6bUnUuYu7',04024111111);
+insert into hospitals values(205,'LANDMARK HOSPITAL','https://maps.app.goo.gl/C3ckhjDvrGDhqEhH9',04045459999);
+insert into hospitals values(206,'SUNSHINE HOSPITALS','https://maps.app.goo.gl/Gcj8KibdvZt7UY179',04044550000);
+insert into hospitals values(207,'CONTINENTAL HOSPITALS','https://maps.app.goo.gl/T3gFH74XvFKw8fpY6',04067000000);
+insert into hospitals values(208,'VIRINCHI HOSPITALS','https://maps.app.goo.gl/T3HH9coorAT7Hn4a9',04046999999);
+insert into hospitals values(209,'KAMINENI HOSPITALS','https://maps.app.goo.gl/tBQpPW74zeLK4it5A',04039879999);
+insert into hospitals values(210,'AIG HOSPITALS','https://maps.app.goo.gl/Ztwk5Qf66W95pjLz7',04042444222);
+
+CREATE TABLE SCHOOLS(SCH_ID NUMBER PRIMARY KEY,SCH_NAME VARCHAR(100),LOCATION VARCHAR(100),HELPLINE_NO NUMBER(15));
+INSERT INTO SCHOOLS VALUES(301,'INTERNATIONAL SCHOOL OF HYDERABAD','https://maps.app.goo.gl/ztFxaUcJqjGNLSkW9',04030713865);
+INSERT INTO SCHOOLS VALUES(302,'GLOBAL INDIAN INTERNATIONAL SCHOOL','https://maps.app.goo.gl/edsTXwJY6D95nCdH9',09177097097);
+INSERT INTO SCHOOLS VALUES(303,'SCHOOLS IN HYDERABAD','https://maps.app.goo.gl/QHz599SKKMZb3FVp6',09014232111);
+INSERT INTO SCHOOLS VALUES(304,'SILVAR OAKS INTERNATIONAL SCHOOL','https://maps.app.goo.gl/q4jtUJH6toG2Zoak9',04023047777);
+INSERT INTO SCHOOLS VALUES(305,'OAKRIDGE INTERNATIONAL SCHOOL','https://maps.app.goo.gl/FtgUrDKp1iz9Kgyq9',09133337711);
+INSERT INTO SCHOOLS VALUES(306,'THE HYDERABAD PUBLIC SCHOOL','https://maps.app.goo.gl/WZdx8g6cXa7XDqmw5',04027761546);
+INSERT INTO SCHOOLS VALUES(307,'CHIREC INTERNATIONAL SCHOOL','https://maps.app.goo.gl/4a2xwQh7GU8ziaHJ9',04044760999);
+INSERT INTO SCHOOLS VALUES(308,'HYDERABAD INTERNATINAL SCHOOL','https://maps.google.com/?cid=5758805344434654944',08801925252);
+INSERT INTO SCHOOLS VALUES(309,'SRI SWAMI CHINNA JEEYAR INTERNATIONAL SCHOOL','https://maps.app.goo.gl/Agzyj5XKHSfcLdg89',09985859111);
+INSERT INTO SCHOOLS VALUES(310,'GITANJALI PRIMARY SCHOOL','https://maps.app.goo.gl/ccphNV9ySJzJRVaJ6',04027768420);
+
+CREATE TABLE COLLAGES_OR_UNIVERSITIES(CLG_ID NUMBER PRIMARY KEY,CLG_NAME VARCHAR(100),LOCATION VARCHAR(100),HELPLINE_NO NUMBER(15));
+insert into COLLAGES_OR_UNIVERSITIES values(401,'UNIVERSITY OF HYDERABAD','https://maps.app.goo.gl/3EFAobecHocoRwm58',04023130000);
+insert into COLLAGES_OR_UNIVERSITIES values(402,'POTTI SREERAMULU TELUGU UNIVERSITY','https://maps.app.goo.gl/oDVcHi1YPurwS4ALA',04023230435);
+insert into COLLAGES_OR_UNIVERSITIES values(403,'IIT HYDERABAD','https://maps.app.goo.gl/j3K9Ytz7v7A5S3Pu8',04066531000);
+insert into COLLAGES_OR_UNIVERSITIES values(404,'MAULANA AZAD NATIONAL URDU UNIVERSITY','https://maps.app.goo.gl/XhKc3J72QNdX2U3aA',04023001316);
+insert into COLLAGES_OR_UNIVERSITIES values(405,'JAWAHARLAL NEHRU ARCHITECTURE AND FINE ARTS UNIVERSITY','https://maps.app.goo.gl/JNonJ7uSwo5ZB53Z8',04023317006);
+insert into COLLAGES_OR_UNIVERSITIES values(406,'NIZAMS INSTITUTE OF MEDICAL SCIENCES','https://maps.app.goo.gl/qZ4NAmA8DFTJzAHJ7',04023489000);
+insert into COLLAGES_OR_UNIVERSITIES values(407,'ICFAI FOUNDATION OF HIGHER EDUCATTION (IFHE) UNIVERSITY','https://maps.app.goo.gl/rpirBmzdi4Q9oSgw5',04023479725);
+insert into COLLAGES_OR_UNIVERSITIES values(408,'SRI KONDA LAXMAN TELANGANA STATE HORTICULTURAL UNIVERSITY','https://maps.app.goo.gl/27uFudXjLidq6ZgD8',04024014301);
+insert into COLLAGES_OR_UNIVERSITIES values(409,'GITAM (DEEMED TO BE UNIVERSITY)','https://maps.app.goo.gl/18m3fbQZVn2he9mH7',08455221200);
+insert into COLLAGES_OR_UNIVERSITIES values(410,'P.V.NARASIMHA RAO TELANGANA VETERINARY UNIVERSITY','https://maps.app.goo.gl/zpZYgoMuKSHQJnY97',04024002114);
+
+
+
+CREATE TABLE Metro_stations(station_ID NUMBER PRIMARY KEY,STATION_NAME VARCHAR(100),location varchar(100),helpline_NO NUMBER(15));
+INSERT INTO METRO_STATIONS VALUES(601,'HABSIGUDA','https://maps.app.goo.gl/jwM6Zg9Z8pvz3g4t5',04023332555);
+INSERT INTO METRO_STATIONS VALUES(602,'KUKATPALLY','https://maps.app.goo.gl/KwRGhCFs2agZccVp8',04023388587);
+INSERT INTO METRO_STATIONS VALUES(603,'STADIUM METRO STATION','https://maps.app.goo.gl/Tsrv11hpnzwERGyX7',04023332555);
+INSERT INTO METRO_STATIONS VALUES(604,'PARADISE','https://maps.app.goo.gl/CRW3mvTAK8CgbWsH7',04023332555);
+INSERT INTO METRO_STATIONS VALUES(605,'JUBILEE HILLS ROAD NO.5 METRO STATION','https://maps.app.goo.gl/xdmy7k4pxkVTfpX19',04023332555);
+INSERT INTO METRO_STATIONS VALUES(606,'DURGAM CHERUVU METRO STATION','https://maps.app.goo.gl/JNASEEMi8Cn7yx2Y6',04023332555);
+INSERT INTO METRO_STATIONS VALUES(607,'MGBS METRO STATION','https://maps.app.goo.gl/aLMckrQQdLturtC18',04023332555);
+INSERT INTO METRO_STATIONS VALUES(608,'NAGOLE METRO STATION','https://maps.app.goo.gl/5if9vkrhVrT8TiSE8',04023332555);
+INSERT INTO METRO_STATIONS VALUES(609,'KPHB COLONY','https://maps.app.goo.gl/1JDgEcSvammv58tJ7',04023332555);
+INSERT INTO METRO_STATIONS VALUES(610,'BEGUMPET METRO STATION','https://maps.app.goo.gl/PUrJR36CK85MFn5J9',04022031300);
+
+
+
+
+create table Famous_places(place_id number primary key,place_name varchar(30),visiting_hours varchar(20),location varchar(100),helpline_no number(15));
+INSERT INTO FAMOUS_PLACES VALUES(501,'NEHRU ZOOLOGICAL PARK','8:30AM-4:30PM','https://maps.app.goo.gl/omZSwf4eVALVabPU7',04024477355);
+INSERT INTO FAMOUS_PLACES VALUES(502,'SALAR JUNG MUSEUM','10:00AM-5:00PM','https://maps.app.goo.gl/E5R7LnQZk6q2SMfk9',04024576443);
+INSERT INTO FAMOUS_PLACES VALUES(503,'GOLCONDA FORT','9:00AM-5:00PM','https://maps.app.goo.gl/NGPzB49Do4vtkUpW9',04023512401);
+INSERT INTO FAMOUS_PLACES VALUES(504,'CHARMINAR','9:30AM-5:30PM','https://maps.app.goo.gl/DjAZZyw2QxoPK4JJ8',04066745986);
+INSERT INTO FAMOUS_PLACES VALUES(505,'CHOWMAHALLA PALACE','10:00AM-5:00PM','https://maps.app.goo.gl/uK899VuBuAv3FHdv5',04024522032);
+INSERT INTO FAMOUS_PLACES VALUES(506,'SNOW WORLD','10:30AM-9:00PM','https://maps.app.goo.gl/2Rr8YzzacehnFUoQ7',0402970298);
+INSERT INTO FAMOUS_PLACES VALUES(507,'BIRLA MANDIR','7:00AM-12:00PM & 3:00PM-9:00PM','https://maps.app.goo.gl/urZXabCvoNxtiFAZ8',04023233259);
+INSERT INTO FAMOUS_PLACES VALUES(508,'JALAVIHAR WATERPARK','11:00AM-7:00PM','https://maps.google.com/?cid=6720828494116547507',04029883366);
+INSERT INTO FAMOUS_PLACES VALUES(509,'LUMBINI PARK','9:00AM-9:00PM','https://maps.app.goo.gl/3r9PW4NTDEt82JhR9',09248108207);
+INSERT INTO FAMOUS_PLACES VALUES(510,'RAMOJI FILM CITY','9:00AM-5:30PM','https://maps.app.goo.gl/naC5wKk9sjdMEUYS9',18001202999);
+INSERT INTO FAMOUS_PLACES VALUES(511,'WONDERLA AMUSEMENT PARK','11:00AM-6:00PM','https://maps.app.goo.gl/hLFaV2sacG5awWVp7',04023490333);
+
+CREATE TABLE SOFTWARE_COMPANIES(COMPANY_ID NUMBER PRIMARY KEY,COMPANY_NAME VARCHAR(20),LOCATION VARCHAR(70),HELPLINE_NO NUMBER(15));
+INSERT INTO SOFTWARE_COMPANIES VALUES(701,'SOFTWARE DEVELOPMENT COMPANY HYDERABAD','https://maps.app.goo.gl/hxFZu73W165KrCZZ7',040 2335 0372);
+INSERT INTO SOFTWARE_COMPANIES VALUES(702,'ASKMEGURU TECHNOLOGIES HYDERABAD','https://maps.app.goo.gl/WShoSrYQNJqWfEyX6',088850 51616);
+INSERT INTO SOFTWARE_COMPANIES VALUES(703,'VALUEMOMEMTUM','https://maps.app.goo.gl/a1tAwjV5FjiXAfz68',040 6733 8400);
+INSERT INTO SOFTWARE_COMPANIES VALUES(704,'SONATA SOFTWARE LIMITED','https://maps.app.goo.gl/NXsPAT4VtWwZdhot7',040 6689 3899);
+INSERT INTO SOFTWARE_COMPANIES VALUES(705,'ENTERPI SOFTWARE SOLUTIONS PRIVATE LIMITED','https://maps.google.com/?cid=635302368463496570',040 6603 4111);
+INSERT INTO SOFTWARE_COMPANIES VALUES(706,'CREATIVE TECHNOSOFT SYSTEMS PVT.LTD','https://maps.app.goo.gl/DRg9PUBdYmetSsYJ9',040 6456 0372);
+INSERT INTO SOFTWARE_COMPANIES VALUES(707,'TATA CONSULTANCY SERVICES LIMITED','https://maps.app.goo.gl/vuQWUhcRpcNqsNrx7',04066672000);
+INSERT INTO SOFTWARE_COMPANIES VALUES(708,'ORACLE INDIA PRIVATE LIMITED','https://maps.app.goo.gl/patT2eCYAxCHrXLb8',040 6724 4000);
+INSERT INTO SOFTWARE_COMPANIES VALUES(709,'BRIHASPATHI TECHNOLOGES','https://maps.app.goo.gl/GNqZJRoQ4xp1s6Y69',095812 34499);
+INSERT INTO SOFTWARE_COMPANIES VALUES(710,'TERADATA INDIA PRIVATE LIMITED','https://maps.app.goo.gl/A5ttftTCfwVUo99V9',040 6767 8000);
+
+create table govern_offices(off_id number primary key,location varchar(100),helpline_no number(15));
+
+create table mee_sevas(off_id number primary key,location varchar(100),helpline_no number(15));
+
+create table banks(bank_id number primary key,bank_name varchar(20),location varchar(100),helpline_no number(15));
+
+create table atms(atm_id number primary key,bank_name varchar(20),location varchar(100),helpline_no number(15),foreign key(bank_name) references banks);
+
+create table petrol_bunks(id number,oil_company,location varchar(100),helpline_no number(15));
+
+create table shopping_malls(mall_id number primary key,mall_name varchar(20),location varchar(100),helpline_no number(15));
+
+create table movie_theatres(id number primary key,theatre_name varchar(25),location varchar(100),helpline_no number(15));
+
+create table medical_shops(id number primary key,shop_name varchar(25),location varchar(100),helpline_no number(15));
+
+create table general_stores(id number primary key,store_name varchar(25),location varchar(100),helpline_no number(15));
+
+CREATE TABLE PASSPORT_OFFICES(PASS_OFF_ID NUMBER PRIMARY KEY,PASS_OFF_NAME VARCHAR(20),location VARCHAR(100),HELPLINE_NO NUMBER(15));
+
+CREATE TABLE WATER_plants(WAT_SUP_ID NUMBER PRIMARY KEY,WAT_plants_NAME VARCHAR(20),location VARCHAR(100),HELPLINE_NO NUMBER(15));
+
+CREATE TABLE MUNCIPAL_OFFICES(MUN_OFF_ID NUMBER PRIMARY KEY,MUN_OFF_NAME VARCHAR(30),location varchar(100),HELPLINE_NO NUMBER(15));
+
+CREATE TABLE POWER_STATIONS(POW_ST_ID NUMBER PRIMARY KEY,location VARCHAR(100),HELPLINE_NO NUMBER(15));
+
+CREATE TABLE CITY_BUSES_stations(station_id number primary key,location varchar(),help_line_no number;
+
+CREATE TABLE PRIVATE_BUS_travels(station_id number primary key,travels_name varchar(20),location varchar(100),helplin_no number(15));
+drop table COLLAGES_OR_UNIVERSITIES;
+drop table SCHOOLS;
+drop table HOSPITALS;
